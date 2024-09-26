@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-m {
+    background: linear-gradient(145deg, rgb(5, 239, 184), rgb(2, 79, 179));
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80vw;
+    border-bottom: 1px solid rgb(254, 3, 3);
+    margin: auto;
+    color: antiquewhite;
+    background: transparent;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+ul li:hover {
+    color: rgb(202, 247, 96);
+    cursor: pointer;
+    font-size: 18.5px;
+}
+
+.logo img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.ok {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.main {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.form-action h2 {
+    margin-bottom: 15px
+}
+
+input {
+    margin: 10px;
+    border: 1px solid #2dc5ef;
+    border-radius: 5px;
+    background: none;
+    color: antiquewhite;
+    padding: 5px;
+}
+
+.btn {
+    font-size: 13px;
+    padding: 3px 6px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background-color: rgb(0, 84, 253);
+    color: antiquewhite;
+    margin: 13px 0;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.data h2 {
+    margin-bottom: 15px
+}
+
+table,
+td,
+tr {
+    border: 2px solid black;
+    padding: 5px 18px;
+    border-collapse: collapse;
+}
+
+.btn-sm {
+    font-size: 10px;
+    padding: 5px;
+    border: 1px double rgb(20, 3, 3);
+    border-radius: 5px;
+    background: red;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-ssm {
+    border: 1px solid red;
+    margin-left: 4px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    font-size: 7px;
+    padding: 2px;
+    cursor: pointer;
+    position: relative;
+    bottom: 8px;
+}
+
+#alert {
+    display: none;
+}
+
+@media screen and (max-width:440px) {
+    ul li {
+        margin: 5px;
+        cursor: pointer;
+        font-size: 15px;
+    }
+    .ok h1{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .ok .txt{
+        font-size: 12px;
+    }
+}

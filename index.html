@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Password-Manager</title>
+</head>
+
+<body>
+    <div class="main-m">
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="list">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="ok">
+            <h1>Welcome to Password-Manager</h1>
+            <div class="txt">Save your Password,Copy and use Where ever you want !</div>
+        </div>
+        <div class="main">
+            <div class="form-action">
+                <h2>Add your Password</h2>
+
+                <b>
+                    <lable for="website">Website :</lable>
+                </b>
+                <input type="text" id="website" name="website">
+                <br>
+
+                <b>
+                    <lable for="username">Username :</lable>
+                </b>
+                <input type="text" id="username" name="username">
+                <br>
+
+                <b>
+                    <lable for="password">Password :</lable>
+                </b>
+                <input type="password" id="password" name="password">
+                <br>
+
+                <button class="btn">Submit</button>
+            </div>
+
+            <div class="data">
+
+                <h2>Your Passwords . . . <span id="alert">(Copied)</span></h2>
+                <table>
+                    <tr>
+                        <th>Website</th>
+                        <th>Username</th>
+                        <th>Password</th>
+                        <th>Action</th>
+                    </tr>
+                </table>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
